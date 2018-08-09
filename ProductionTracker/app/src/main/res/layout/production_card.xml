@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/cardview_dark_background">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:elevation="3dp"
+        android:layout_gravity="center"
+        card_view:cardCornerRadius="7dp">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/item_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="160dp"
+                    android:minWidth="160dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="20dp"
+                    android:text="Hello"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textScaleX="1.3"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/item_qty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:maxWidth="100dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="20dp"
+                    android:text="Hello"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textScaleX="1.3"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/item_target"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:maxWidth="100dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="20dp"
+                    android:text="Hello"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textScaleX="1.3"
+                    android:textSize="17sp" />
+            </TableRow>
+        </TableLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

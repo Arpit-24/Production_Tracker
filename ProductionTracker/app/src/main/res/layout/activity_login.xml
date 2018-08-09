@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/app_splash_background"
+    android:alpha="0.7">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:stretchColumns="*"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_80dp"
+        android:layout_marginBottom="@dimen/margin_80dp"
+        android:layout_marginLeft="@dimen/margin_50dp"
+        android:layout_marginRight="@dimen/margin_50dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textScaleX="1.5"
+                android:text="Select"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_30dp"
+            android:layout_marginLeft="@dimen/margin_30dp"
+            android:layout_marginRight="@dimen/margin_30dp"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_30dp">
+
+            <Button
+                android:id="@+id/update_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/button_shape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Update Database"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textScaleX="1.2"
+                android:textSize="12sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_30dp"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_marginRight="@dimen/margin_30dp"
+            android:layout_marginEnd="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:layout_marginBottom="@dimen/margin_10dp">
+
+            <Button
+                android:id="@+id/view_btn"
+                android:layout_column="0"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="View Production"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textScaleX="1.2"
+                android:textSize="12sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_30dp"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_marginRight="@dimen/margin_30dp"
+            android:layout_marginEnd="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:layout_marginBottom="@dimen/margin_10dp">
+
+            <Button
+                android:id="@+id/monthly_report_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/button_shape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Monthly Report"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textScaleX="1.2"
+                android:textSize="12sp" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
